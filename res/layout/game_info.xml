@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/t_5"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="13dp"
+        android:inputType="textMultiLine"
+        android:text="开发介绍："
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:inputType="textMultiLine"
+        android:text="1、版本为1.0版本(内部版本7601：Service Pack 1)"
+          android:textSize="18sp" />
+     <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:inputType="textMultiLine"
+        android:text="2、版权所有  吴月 2017/04"
+          android:textSize="18sp" />
+
+     <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:inputType="textMultiLine"
+        android:text="3、Windows 7 旗舰版 操作系统及其用户界面受广大人民群众的支持，已颁布了合格证书"
+        android:textSize="18sp" />
+     <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:inputType="textMultiLine"
+        android:text="4、根据众多软件条款，本产品使用权："
+          android:textSize="18sp" />
+     <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:inputType="textMultiLine"
+        android:text="          面向全世界"
+          android:textSize="18sp" />
+     <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:inputType="textMultiLine"
+        android:textStyle="bold"
+        android:text="          研发人员：吴月"
+        android:textSize="18sp" />
+</LinearLayout>

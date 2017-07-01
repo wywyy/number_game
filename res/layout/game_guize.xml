@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/t_4"
+    android:orientation="vertical" >
+<!-- 
+ -->
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:inputType="textMultiLine"
+        android:text="游戏规则："
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:inputType="textMultiLine"
+        android:text="1、游戏使用方法:通过滑动下方数字，进行游戏，画错则可回滑，运算式符合规则且与目标数相等，则得分，直到得分，数字棋盘都会刷新"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_margin="15dp"
+        android:inputType="textMultiLine"
+        android:text="2、总共有五个模式，前面三个模式作为训练模式，训练你的反应速度"
+         android:textSize="18sp" />
+  <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_margin="15dp"
+        android:inputType="textMultiLine"
+        android:text="3、闯关模式是集于前面三个模式合在一起的"
+         android:textSize="18sp" />
+  <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_margin="15dp"
+        android:inputType="textMultiLine"
+        android:text="4、计时模式是考验你眼疾手快的时候了"
+         android:textSize="18sp" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:inputType="textMultiLine"
+        android:text="要加油哦！！"
+        android:textSize="25sp" />
+
+</LinearLayout>

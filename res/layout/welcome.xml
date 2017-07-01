@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/r_3"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="15dp"
+        android:textSize="30dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="#A4C639"
+        android:text="请根据高亮提示画出\n 欢迎进入数字游戏！" />
+
+       <RelativeLayout
+           android:id="@+id/layout_a"
+           android:layout_width="300dp"
+           android:layout_height="240dp"
+           android:layout_marginTop="20dp"
+           android:layout_marginLeft="30dp"
+           android:layout_centerHorizontal="true"
+           android:layout_below="@+id/textView1"
+          
+           >
+
+       <Button
+           android:clickable="false"
+           android:id="@+id/button3"
+           android:layout_width="100dp"
+           android:layout_height="80dp"
+           android:layout_toRightOf="@+id/button2"
+           android:layout_above="@+id/button6"
+            android:background="#A9DBF6"
+           android:text="游" />
+       <Button
+           android:clickable="false"
+           android:id="@+id/button4"
+           android:layout_width="100dp"
+           android:layout_height="80dp"
+           android:layout_centerVertical="true"
+           android:layout_toLeftOf="@+id/btn_5"
+            android:background="#E1D1D2"
+           android:text="迎" />
+
+       <Button
+           android:clickable="false"
+           android:id="@+id/btn_5"
+           android:layout_width="100dp"
+           android:layout_height="80dp"
+           android:layout_centerHorizontal="true"
+           android:layout_centerVertical="true"
+            android:background="#A9DBF6"
+           android:text=" " />
+
+       <Button
+           android:clickable="false"
+           android:id="@+id/button1"
+           android:layout_width="100dp"
+           android:layout_height="80dp"
+           android:layout_toLeftOf="@+id/button2"
+           android:layout_above="@+id/button4"
+            android:background="#A9DBF6"
+           android:text="欢" />
+       <Button
+           android:clickable="false"
+           android:id="@+id/button2"
+           android:layout_width="100dp"
+           android:layout_height="80dp"
+           android:layout_above="@+id/btn_5"
+           android:layout_centerHorizontal="true"
+           android:background="#E1D1D2"
+           android:text="戏" />
+
+       <Button
+           android:clickable="false"
+           android:id="@+id/button6"
+           android:layout_width="100dp"
+           android:layout_height="80dp"
+            android:background="#E1D1D2"
+           android:layout_toRightOf="@+id/btn_5"
+           android:layout_centerVertical="true"
+           android:text="字" />
+        <Button
+            android:clickable="false"
+           android:id="@+id/button7"
+           android:layout_width="100dp"
+           android:layout_height="80dp"
+            android:background="#A9DBF6"
+           android:layout_below="@+id/button4"
+           android:layout_toLeftOf="@+id/button8"
+           android:text="进" />
+        <Button
+            android:clickable="false"
+           android:id="@+id/button8"
+            android:background="#E1D1D2"
+           android:layout_width="100dp"
+           android:layout_height="80dp"
+           android:layout_centerHorizontal="true"
+           android:layout_below="@+id/btn_5"
+           android:text="入" />
+         <Button
+             android:clickable="false"
+           android:id="@+id/button9"
+            android:background="#A9DBF6"
+           android:layout_width="100dp"
+           android:layout_height="80dp"
+           android:layout_below="@+id/button6"
+           android:layout_toRightOf="@+id/button8"
+           android:text="数" />
+   </RelativeLayout>
+</RelativeLayout>
